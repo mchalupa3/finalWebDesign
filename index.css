@@ -1,0 +1,164 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: 10px;
+}
+.textCenter{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 120%;
+}
+.topPadding{
+  padding-top: 60px;
+}
+.paddingAndCenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  top: 70px;
+  padding-top: 60px;
+
+}
+
+.background {
+    background-color: rgb(74, 138, 247);
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(233, 21, 21);
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #073fe6;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css?family=Corben:700');
+@import url('http://fonts.googleapis.com/css?family=Tangerine');
+h1 {
+	font-family: 'Corben', cursive;
+	font-size: 6rem;
+	color: white;
+	letter-spacing: 0.1rem;
+	text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.66);
+}
+.textTangerine{
+        font-family: 'Tangerine', serif;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+      }
+.inSameLine{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20%;
+}
+
+#images{
+  text-align:center;
+}
+
+.hero {
+	// min-height: 100vh;
+	min-height: 30rem;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+	&__content {
+		position: relative;
+		align-self: center;
+		padding: 3rem 0;
+	}
+}
+
+.snow {
+	position: absolute;
+	min-width: 100%;
+	min-height: 200%;
+	height: auto;
+	width: auto;
+	top: 0;
+	left: 0;
+}
+
+.snow .svg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+#snow-top-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 22.5s infinite linear;
+}
+
+#snow-bottom-layer {
+	will-change: transform;
+	transform: translateY(-768px);
+	animation: fall 45s infinite linear;
+}
+
+@keyframes fall {
+
+	100% {
+		transform: translateY(0);
+	}
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    text-align: center;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-snapchat {
+    background: rgb(201, 226, 0);
+    color: white;
+}
