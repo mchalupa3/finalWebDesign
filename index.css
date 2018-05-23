@@ -6,8 +6,11 @@
     position: relative;
     top: 10px;
 }
+
 .textCenter{
   text-align: center;
+  list-style-position: inside;
+  color: #66fcf1;
 }
 p{
   text-align: center;
@@ -28,11 +31,11 @@ p{
 }
 
 .background {
-    background-color: rgb(74, 138, 247);
+    background-color: #1a1a1d;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(233, 21, 21);
+    background-color:rgb(14, 12, 13);
     overflow: hidden;
 }
 
@@ -54,7 +57,7 @@ p{
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: #073fe6;
+    background-color:#4e4e50;
     color: white;
 }
 @import url('https://fonts.googleapis.com/css?family=Corben:700');
@@ -69,7 +72,7 @@ h1 {
 .textTangerine{
         font-family: 'Tangerine', serif;
         font-size: 30px;
-        color: white;
+        color: #C3073f;
         text-align: center;
       }
 .inSameLine{
