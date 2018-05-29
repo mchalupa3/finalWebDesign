@@ -10,7 +10,7 @@
 .textCenter{
   text-align: center;
   list-style-position: inside;
-  color: #66fcf1;
+  color: rgb(198, 198, 198);
 }
 p{
   text-align: center;
@@ -30,13 +30,24 @@ p{
 
 }
 
-.background {
-    background-color: #1a1a1d;
+
+  /*background-color:*/
+
+.background{
+  background-color: #1a1a1d;
 }
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color:rgb(14, 12, 13);
     overflow: hidden;
+}
+.rotate{
+  transform: rotate(90deg);
+  width: 20%;
+    height: 20%;
+    text-align: center;
+  vertical-align: middle;
 }
 
 /* Style the links inside the navigation bar */
@@ -72,7 +83,7 @@ h1 {
 .textTangerine{
         font-family: 'Tangerine', serif;
         font-size: 30px;
-        color: #C3073f;
+        color: rgb(198, 198, 198);
         text-align: center;
       }
 .inSameLine{
